@@ -7,3 +7,5 @@
 -To create a deep copy in rust use var.clone();
 -When modifying a reference it must be a mut reference and their can only be one at a time.
 -Multiple immutable references are ok but when a mut referece exists only one reference can exist.
+
+-
