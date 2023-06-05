@@ -1,0 +1,5 @@
+-When using cargo the --bin extension makes an executable application as opposed to a libary.
+-Executables are binary executable files i.e(binarys)
+-TOML files are used to configure the cargo file.
+-In the cargo top-level only the src directory, README, license information, configuration files, and anything else not related to the code.
+-When releasing a project run "cargo build --release" which compiles the project with optimizations.

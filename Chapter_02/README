@@ -1,0 +1,9 @@
+- In this section we will learn about let, matchind, methods, associates functions, and external crates.
+
+"We will create a guessing game"
+
+-In rust variables are created with let and are immutable by default
+-By default references are immutable
+-If you want to update all creates in your project use cargo update. Otherwise cargo will look to Cargo.lock for the verison of a crate you used at the time of the last cargo build command.
+-Adding "extern crate <crate_name>" lets rust know an extra external dependency will be used.
+-Cargo doc --open provides the documentation of all the local dependencys.

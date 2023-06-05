@@ -1,0 +1,28 @@
+- Common Programming Concepts
+- In this section we will learn about variables, basic types, functions, comments, and control flow.
+
+- Variables are immutable by default but can be changed by adding a mut tag
+
+- Constants must have a type annotated (must be set pre-runtime) (constant names all uppercase)
+
+-Shadowing lets you change variable type (shadows cannot be mutable)
+
+-Integers can be of type signed or unsigned (i-size and u-size depends on computer i.e 64 bit or 32 big etc)
+-Rust defaults to i32
+
+
+- Compound Types
+- To extract values from a tuple we use pattern matching
+- Arrays are stored on the stack 
+
+
+- Functions (Rust is an expression based language i.e(everything results in a value (macros as the exeption)))
+- Rust doesn't care where functions are defined.
+
+-Statements vs Expressions
+-When returning branch expressions both types must be the same. (Rust must know at compile time the type of variables) 
+
+-Loops
+-3 Types of loops: loop, while, for
+
+

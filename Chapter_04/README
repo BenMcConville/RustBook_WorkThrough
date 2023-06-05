@@ -1,0 +1,9 @@
+-Chapter 04  OwnerShip
+
+-Rust does not use a guarbage collector by utilizing owenerships.
+-All primative data types are stored on the stack as their size is known
+- String literals are immutable as they are stored on the stack and are of a fixed size.
+-Rust has a string type which is stored on the heap which is muttable (does not need to be mut though)
+-To create a deep copy in rust use var.clone();
+-When modifying a reference it must be a mut reference and their can only be one at a time.
+-Multiple immutable references are ok but when a mut referece exists only one reference can exist.
