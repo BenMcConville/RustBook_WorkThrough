@@ -1,0 +1,21 @@
+- Enums(Enumerations) and Pattern Matching
+
+Enums are useful for defining custom data types and calling custom functions on these variants. Enums are also used for relating different versions of the same thing
+
+-Enums can be linked with structs to include custom data types but enums can also have data attched to it. This is different to structs as each variant can hold different amounts of associated data.
+
+-Any type of variable can be stored inside enums
+-Enums can also have methods
+
+-The "Option" type can be used for checking if a value is something or nothing (compiler can check that you have handled all cases). (Rust does not include a null value)
+
+-Rust does not include the null property but it does include an enum included in the standard libary which is an enum that can encode the concept of a value being absent or present.
+
+-<T> in rust is the generic type paramater
+-When using the None variant rust cannot infer the type so it must be defined using Option<T>.
+-When dealing with primative data types we dont need to worry about valid values as the compiler does this for us. When using Option<T> we do need to worry about it.
+
+-Operations can only be done on Option<T> by converting it into a T
+
+
+-Match Control Flow Operator
