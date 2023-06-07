@@ -1,4 +1,4 @@
-- Enums(Enumerations) and Pattern Matching
+- Enums(Enumerations) and Pattern Matching (Enums & Structs are stored on the stack!!)
 
 Enums are useful for defining custom data types and calling custom functions on these variants. Enums are also used for relating different versions of the same thing
 
@@ -19,3 +19,13 @@ Enums are useful for defining custom data types and calling custom functions on 
 
 
 -Match Control Flow Operator
+
+-Match allows us to compare a value against a series of patterns and then fxecute code based on which pattern matches.
+
+-Match checks conditions in the order they are listed
+-(Matches in rust are exhaustive: we must exhaust every last possibility in order for the code to run) in this case we use the catch all place holder "_"
+- () is a unit value which does nothing
+
+
+
+-When we only care about one case we can use if let
