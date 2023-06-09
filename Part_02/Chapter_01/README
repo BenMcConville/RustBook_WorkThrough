@@ -1,0 +1,8 @@
+-Using Modules go Reuse and Organize Code
+
+-By default cargo creates a libary project "cargo new <>"
+
+-When creating modules we use the mod macro this crates a namespace. When calling functions we use the namespace syntax "::"
+
+-When creating modules both modules can use the same function names as they are different modules.
+-Modules can also be places inside of eachother
