@@ -6,28 +6,18 @@ communicator
 	network
 		server
 
+----------------- After seperating all the modules we have:
+
+communicator
+	src
+		client.rs
+		lib.rs
+		network
+			mod.rs
+			server.rs
 */
-
-
-
-mod network	{
-	fn connect()	{
-
-	}
-
-	mod server	{
-		fn connect()	{
-
-		}
-	}
-}
-
-mod client	{
-	fn connect()	{
-
-	}
-{
-
+pub mod client; //By adding a semi-colon we are telling rust to look for an external file.
+pub mod network;
 
 #[cfg(test)]
 mod tests	{
