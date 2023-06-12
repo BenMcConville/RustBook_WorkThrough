@@ -1,0 +1,1 @@
+/Users/bmcc/Documents/Programs/Rust/RustBook_WorkThrough/Part_02/Chapter_01/privacy_example/target/debug/libprivacy_example.rlib: /Users/bmcc/Documents/Programs/Rust/RustBook_WorkThrough/Part_02/Chapter_01/privacy_example/src/lib.rs

@@ -6,3 +6,23 @@
 
 -When creating modules both modules can use the same function names as they are different modules.
 -Modules can also be places inside of eachother
+
+-When creating new modules in other files the mod macro does not need to be declared as we already crates a mod in the main file.
+
+-For rust to be able to understand that a module is a submodule (mod under a mod) we need to create a new directory in src and place all the files there.
+
+
+Rules for modules:
+- If foo has no submodules place foo in src
+- If foo has submodules place foo.rs into /foo and rename it mod.rs with its submodules in the same directory. (Then go back to step 1 but in this directory now)
+
+
+Controlling Visability with pub.
+-The name of the libary crate is called the root module
+-When using external crates within a submodule the extern crate should go in the root module.
+
+Privacy Rules
+-If a item is public it can be accessed through any ot its parent modules
+-If a item is pribate it can only be accssed by the current module and the child moduler
+
+
