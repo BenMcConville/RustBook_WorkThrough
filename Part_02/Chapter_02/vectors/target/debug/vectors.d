@@ -1,0 +1,1 @@
+/Users/bmcc/Documents/Programs/Rust/RustBook_WorkThrough/Part_02/Chapter_02/vectors/target/debug/vectors: /Users/bmcc/Documents/Programs/Rust/RustBook_WorkThrough/Part_02/Chapter_02/vectors/src/main.rs

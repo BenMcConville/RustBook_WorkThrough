@@ -1,0 +1,12 @@
+Common Collections
+
+Rust includes in its standard libary data structures called collections which are stored on the heap meaning they can change size during runtime. Vector, string, hash map.
+
+When storing multiple types in a vec we can use enums
+
+-Strings are stored as a collection of bytes + some methods
+-Strings are wrappers over Vec<u8>
+
+HashMaps
+
+Hash maps store HashMap<K, V>, a key of type K and a value of type V which does this via a Hashing Function.
