@@ -1,0 +1,26 @@
+ERROR Handling
+Rust categorises errors into recoverable and unrecoverable groups.
+-Recoverable errors are situations like users retrying operations or things like files not found.
+	-Rust uses Result<T,E> for recoverable errors
+
+-Unrecoverable errors are always symtoms of bugs.
+	-Rust uses panic! for unrecoverable errors which stops execution 
+		When this occurs rust unwinding occurs which is a process of working backup the stack and cleaning up any data found. If this isnt done it is eventually cleared by the OS.
+
+When parsing a Result enum we can use .unwrap() which returns the value inside of Ok if Ok or calls a panic if Err is called. We can also use expect which does the same except we can pass what we want panic! to return. 
+
+We can use the ? to return the value inside of a Return if its an Ok or Err.
+
+When to panic! and when not to panic!:
+--------------------------------------
+- Good go generally default to Result as it gives the called the decision to panic! or not.
+-Examples of when its good to panic!:
+	-Writing example code as panic is easier to understand than error handling.
+	-Testing code (use unwrap and expect for testing prototypes)
+When you know code isnt going to pass a Err but the compiler does not know you can use unwrap().
+
+panic should be called when a bad state occurs such as:
+- Something that is not expected to happen normally
+- Code following a point requires it to not be in a bad state
+- Not a good way to encode information of the state.
+
