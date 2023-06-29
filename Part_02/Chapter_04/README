@@ -1,0 +1,18 @@
+Generic Types, Traits, & Lifetimes
+
+
+Generic Types:
+
+-Generics can be defined in the functions signature
+
+-Genrics do not impact runtime/performance
+
+# When rust compiles code with generics it uses monomorphisation which undose what we do and assigns types to the generics.
+
+
+
+Traits:
+
+-You can only impelement traits if one of the traits or types is local.
+
+
