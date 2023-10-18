@@ -9,7 +9,7 @@ fn another_function(x: i32, y: i32)	{ //Define param for passing
     println!("Another Function with arguments: {} and {}", x, y);
 }
 
-fn expression_vs_statement()	{
+fn expression_vs_statement()	{	//Expression return something Statements do not
     let y = { // The code inside is an expression
 	let x = 3;
 	x + 2
